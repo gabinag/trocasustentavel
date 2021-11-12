@@ -200,7 +200,7 @@ footer p {
 
 /*css third*/
 .main-third {
-    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.70)100%), url(img/pexels-felix-mittermeier-957024.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.80)100%), url(img/pexels-felix-mittermeier-957024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -208,6 +208,8 @@ footer p {
     height: 45vw;
 }
 
-.publico {
-    width: 50%;
+.center {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 }
