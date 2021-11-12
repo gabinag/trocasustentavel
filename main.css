@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: green;
+}
+
+nav a:hover {
+    color: rgb(132, 219, 0);
+}
+
+.main-home {
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .60)100%), url(img/pexels-tim-mossholder-974314.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vw;
+}
+
+.banner {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner h1, .banner p{
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1 {
+    margin: 0;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 50px;
+}
+
+.banner p {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.banner button {
+    width: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.726);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+.banner button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+button:hover {
+    transform: scale(1.03);
+    transition: transform 20ms;
+}
+
+/*css sobre*/
+
+.main-sobre {
+   display: flex;
+   justify-content: center;
+}
+
+.wrap-sobre {
+    width: 65%;
+}
+
+.wrap-sobre h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.img-sobre {
+    width: 40%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.wrap-sobre p {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+/*css button*/
+
+.wrap-buttons {
+    position: absolute;
+    top: 63%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-button::before {
+    content: url(/img/arrow_back_ios_white_48dp.svg);
+    margin-left: 20px;
+}
+
+.right-button::before {
+    content: url(/img/arrow_forward_ios_white_48dp.svg);
+    margin-right: 20px;
+}
+
+/*css footer*/
+
+footer {
+    background-color: rgba(0, 0, 0, 0.938);
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    margin: 5px 0 5px 0;
+}
+
+.wrap-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrap-icons a {
+    margin-right: 25px;
+}
+
+/*css second*/
+.main-second {
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.70)100%), url(img/pexels-photomix-company-1002703.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vw;
+}
+
+.banner-second {
+    color: #fff;
+    margin-left: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.banner-second h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.banner-second ul {
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.banner-second li::before {
+    content: url(img/spa_white_24dp.svg);
+}
+
+.banner-second li {
+    margin-bottom: 6px;
+    padding-left: 10px;
+}
+
+/*css third*/
+.main-third {
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.70)100%), url(img/pexels-felix-mittermeier-957024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vw;
+}
+
+.publico {
+    width: 50%;
+}
