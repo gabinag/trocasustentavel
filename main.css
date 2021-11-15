@@ -104,20 +104,26 @@ button:hover {
 
 /*css sobre*/
 
-.main-sobre {
+.main-content {
    display: flex;
    justify-content: center;
+   padding-bottom: 100px;
 }
 
-.wrap-sobre {
+.wrap-content {
     width: 60%;
 }
 
-.wrap-sobre h1 {
+.wrap-content h1 {
     text-align: center;
     margin-bottom: 32px;
     font-size: 25px;
     font-weight: 500;
+}
+
+.wrap-content h2 {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .img-sobre {
@@ -127,7 +133,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.wrap-sobre p {
+.wrap-content p {
     margin-top: 5px;
     text-align: justify;
 }
@@ -135,7 +141,6 @@ button:hover {
 iframe {
     border: none;
     margin-top: 30px;
-    margin-bottom: 100px;
     height: 455px;
 }
 
@@ -271,7 +276,7 @@ footer p {
 }
 
 .wrap-materias a:hover {
-    background-color: rgb(76, 214, 48);
+    background-color: rgb(103, 175, 56);
 }
 
 .wrap-materias img {
@@ -282,5 +287,20 @@ footer p {
 .wrap-materias p {
     color: #fff;
     text-align: center;
-    font-family: 'Nothing You Could Do', cursive;
+    font-size: 18px;
+    padding: 0 2px;
+}
+
+/*css materia 1 e 2*/
+
+.graph {
+    width: 75%;
+    margin: 2em auto;
+    display: block;
+}
+
+.img-neut1 {
+    width: 35%;
+    float: left;
+
 }
