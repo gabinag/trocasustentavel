@@ -110,7 +110,7 @@ button:hover {
 }
 
 .wrap-sobre {
-    width: 65%;
+    width: 60%;
 }
 
 .wrap-sobre h1 {
@@ -130,6 +130,13 @@ button:hover {
 .wrap-sobre p {
     margin-top: 5px;
     text-align: justify;
+}
+
+iframe {
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height: 455px;
 }
 
 /*css button*/
@@ -246,3 +253,4 @@ footer p {
 }
 
 /*css matérias*/
+
