@@ -254,3 +254,33 @@ footer p {
 
 /*css matérias*/
 
+.wrap-materias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3% 18%;
+}
+
+.wrap-materias a {
+    text-decoration: none;
+    width: 28%;
+    margin-bottom: 40px;
+    background-color: rgb(46, 134, 46);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.wrap-materias a:hover {
+    background-color: rgb(76, 214, 48);
+}
+
+.wrap-materias img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.wrap-materias p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+}
