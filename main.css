@@ -126,6 +126,11 @@ button:hover {
     font-weight: 400;
 }
 
+.wrap-content a {
+    text-decoration: none;
+    color: rgb(6, 206, 6);
+}
+
 .img-sobre {
     width: 40%;
     float: left;
@@ -144,7 +149,7 @@ iframe {
     height: 455px;
 }
 
-/*css button*/
+/*css button(setas)*/
 
 .wrap-buttons {
     position: absolute;
@@ -206,7 +211,7 @@ footer p {
 .banner-second {
     color: #fff;
     margin-left: 10%;
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -302,5 +307,4 @@ footer p {
 .img-neut1 {
     width: 35%;
     float: left;
-
 }

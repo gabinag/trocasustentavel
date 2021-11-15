@@ -1,0 +1,119 @@
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 110px;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    nav {
+        width: 70%;
+        margin: 0;
+    }
+
+    .main-home {
+        height: 80vh;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+        padding: 0 5px;
+    } 
+
+    .banner p {
+        font-size: 16px;
+        padding: 0 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .wrap-buttons {
+        top: 85%;
+    }
+
+    /*second*/
+    .main-second {
+        height: 80vh;
+    }
+
+    .banner-second {
+        margin-left: 5%;
+        width: 80%;
+    }
+
+    .banner-second h1 {
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+
+    .banner-second ul {
+        font-size: 16px;
+    }
+
+    /*third*/
+
+    .main-third {
+        height: 80vh;
+    }
+
+    .center {
+        width: 90%;
+    }
+
+    /*matérias*/
+    .wrap-materias {
+        padding: 8%;
+    }
+
+    .wrap-materias a{
+        width: 100%;
+    } 
+
+    /*sobre e matérias*/
+    .main-content {
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    .wrap-content {
+        width: 80%;
+    }
+
+    .wrap-content h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .img-sobre {
+        width: 100%;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    .graph {
+        width: 100%;
+    }
+    
+    .img-neut1 {
+        width: 100%;   
+    }
+
+    /*footer*/
+    .wrap-icons {
+        justify-content: center;
+    }
+
+    .wrap-icons a {
+        margin-right: 6px;
+    }
+
+    footer p {
+        margin-top: 15px;
+    }
+}
