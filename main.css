@@ -111,7 +111,7 @@ button:hover {
 }
 
 .wrap-content {
-    width: 60%;
+    width: 57%;
 }
 
 .wrap-content h1 {
@@ -124,6 +124,7 @@ button:hover {
 .wrap-content h2 {
     font-size: 20px;
     font-weight: 400;
+    margin-top: 20px;
 }
 
 .wrap-content a {
@@ -132,7 +133,7 @@ button:hover {
 }
 
 .img-sobre {
-    width: 40%;
+    width: 46%;
     float: left;
     margin-right: 15px;
     margin-bottom: 10px;
@@ -307,4 +308,13 @@ footer p {
 .img-neut1 {
     width: 35%;
     float: left;
+}
+
+.img-neut2 {
+    width: 18%;
+    float: right;
+}
+
+sub {
+    font-size: 12px;
 }

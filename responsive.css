@@ -88,21 +88,14 @@
         margin-bottom: 20px;
     }
 
-    .img-sobre {
-        width: 100%;
-    }
-
     iframe {
         height: 200px;
     }
-
-    .graph {
-        width: 100%;
-    }
     
-    .img-neut1 {
+    .img-neut1, .img-neut2, .graph, .img-sobre {
         width: 100%;   
     }
+
 
     /*footer*/
     .wrap-icons {
